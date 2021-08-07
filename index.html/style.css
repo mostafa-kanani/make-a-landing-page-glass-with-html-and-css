@@ -140,3 +140,59 @@ button:hover {
   border: 3px solid aqua;
   transition: all 0.4s ease;
 }
+.icon-for-landing-page{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 270px;
+  margin-left: -275px;
+  color: #fff; 
+  font-size: 35px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.fa-youtube:nth-last-child(1){
+  margin: 20px;
+  transition: all 0.4s ease;
+}
+.fa-github:nth-last-child(3){
+  margin: 20px;
+  transition: all 0.4s ease;
+}
+    
+.fa-facebook:nth-last-child(5){
+  margin: 20px;
+  transition: all 0.4s ease;
+}
+
+.fa-instagram:nth-last-child(7){
+  margin: 20px;
+  transition: all 0.4s ease;
+}
+.fa-facebook:hover{
+  color: dodgerblue;
+}
+
+.fa-github:hover{
+  color: dodgerblue;
+} 
+
+.fa-youtube:hover{
+  color: dodgerblue;
+}
+ 
+.fa-instagram:hover{
+  color: dodgerblue;
+}
+
+hr{
+  width: 200px;
+ margin-left: 160px;
+ color: #555;
+}
+
+ 
+
+
+
