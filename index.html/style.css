@@ -21,7 +21,7 @@ body::before {
   background: linear-gradient(#91ee91, red, orange);
   border-radius: 50%;
   margin-left: 100px;
-  margin-top: 20px;
+  margin-top: -1px;
 }
 
 body::after {
@@ -32,8 +32,8 @@ body::after {
   height: 350px;
   background: linear-gradient(aqua, red, purple);
   border-radius: 50%;
-  margin-left: 46rem;
-  margin-top: 200px;
+  margin-left: 19rem;
+  margin-top: 290px;
 }
 .container {
   width: 70rem;
@@ -191,8 +191,21 @@ hr{
  margin-left: 160px;
  color: #555;
 }
-
- 
-
+.picture-landing-page{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-left: 180px;
+  margin-top: -55px;
+}
+img{
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+}
 
 
