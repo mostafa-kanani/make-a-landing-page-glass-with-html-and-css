@@ -69,7 +69,7 @@ ul li:hover {
   height: 50px;
   padding: 10px;
   border-radius: 10px;
-  color:slateblue;
+  color: slateblue;
 }
 .logo a {
   margin: 10px;
@@ -79,7 +79,7 @@ ul li:hover {
   display: inline-block;
   letter-spacing: 2px;
   font-size: 40px;
-  color:midnightblue;
+  color: midnightblue;
   margin-top: 32px;
   cursor: pointer;
   text-transform: capitalize;
@@ -88,25 +88,55 @@ a:hover {
   color: lightslategray;
   transition: all 0.4s ease;
 }
-.title-lading-page{
+.title-lading-page {
   float: left;
   margin: 20px;
   margin-top: 50px;
-  overflow: hidden;
   font-family: Arial, Helvetica, sans-serif;
   text-transform: uppercase;
-  line-height: 50px; 
+  line-height: 50px;
+  z-index: 12;
 }
-h1{
-  color:darkslategrey;
+h1 {
+  color: darkslategrey;
   font-weight: 600;
   letter-spacing: 2px;
   font-family: Arial, Helvetica, sans-serif;
   margin-left: 100px;
   font-size: 50px;
 }
-h2{
+h2 {
   color: #fff;
-  margin-left: 100px; 
+  margin-left: 100px;
   font-size: 50px;
+}
+.btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 150px;
+  margin-left: -270px;
+}
+button {
+  margin: 15px;
+  outline: none;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 40px;
+  cursor: pointer;
+  width: 180px;
+  height: 50px;
+  background: darkslategray;
+  color: #fff;
+  transition: all 0.4s ease;
+  display: inline-block;
+}
+button:hover {
+  background: cornflowerblue;
+  border: 3px solid aqua;
+  transition: all 0.4s ease;
 }
